@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Axrorbek</title>
+</head>
+<body>
+    <section>
+        <h1 class="h1__title">Pitsa buyurtma qilish</h1>
+        <div class="container birlashtiruvchi">
+            <div class="Chap">
+                <h2 class="non__title">Noni qanday bo'lsin?</h2>
+
+                <select onchange="select(value)" class="select">
+                    <option value="Qalin">Qalin</option>
+                    <option value="Ortacha">Ortacha</option>
+                    <option value="Yupqa">Yupqa</option>
+                </select>
+                <h2 class="Kattaligi">Kattaligi</h2>
+
+                <div class="radius">
+                    <button onclick="radius()" class="cm1">25cm</button>
+                    <button onclick="radius2()" class="cm2">30cm</button>
+                    <button onclick="radius3()" class="cm3">35cm</button>
+                </div>
+
+                <h2 class="nima">Ustiga nima solaylik?</h2>
+
+                <div class="usti">
+                    <div>
+                        <div class="pomidor">
+                            <input oninput="fnInp1()" class="inp1" type="checkbox">
+                            <label>Pomidor</label>
+                        </div>
+                        <div class="kurka">
+                            <input oninput="fnInp2()" class="inp2" type="checkbox">
+                            <label>Kurka go'shti</label>
+                        </div>
+                        <div class="zaytun">
+                            <input oninput="fnInp3()" class="inp3" type="checkbox">
+                            <label>Zaytun</label>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="tuzlangan__bodring">
+                            <input oninput="fnInp4()" class="inp4" type="checkbox">
+                            <label>Tuzlangan bodring</label>
+                        </div>
+                        <div class="qoziqorin">
+                            <input oninput="fnInp5()" class="inp5" type="checkbox">
+                            <label>Qo'ziqorin</label>
+                        </div>
+                        <div class="qazi">
+                            <input oninput="fnInp6()" class="inp6" type="checkbox">
+                            <label>Qazi</label>
+                        </div>
+                    </div>
+                </div>
+
+                <h2 class="qoshimchalar">Qo'shimchalar</h2>
+
+                <div class="qosh">
+                    <div class="achchiq">
+                        <input onclick="fnInp7()" type="checkbox">
+                        <label>Achchiq</label>
+                    </div>
+                    <div class="pishloq">
+                        <input onclick="fnInp8()" type="checkbox">
+                        <label>Pishloq</label>
+                    </div>
+                </div>
+            </div>
+            <div class="Orta">
+                <div class="chiziq"></div>
+            </div>
+            <div class="Ong">
+                <!-- <div class="ong__div"> -->
+                    <div class="non">
+                        <h2>Non:</h2>
+                        <span class="span"></span>
+                    </div>
+                    <div class="kattalik">
+                        <h2>Kattaligi:</h2>
+                        <span class="span2"></span>
+                    </div>
+                    <div class="ustida">
+                        <h2>Ustida:</h2>
+                        <span class="span3"></span>
+                        <span class="span4"></span>
+                        <span class="span5"></span>
+                        <span class="span6"></span>
+                        <span class="span7"></span>
+                        <span class="span8"></span>
+                    </div>
+                    <div class="qoshimcha">
+                        <h2>Qo'shimcha:</h2>
+                        <span class="span9"></span>
+                        <span class="span10"></span>
+                    </div>
+                    <button class="">Buyurtma berish</button>
+                <!-- </div> -->
+            </div>
+        </div>
+    </section>
+</body>
+<script src="./js/main.js"></script>
+</html>

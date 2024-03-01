@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.birlashtiruvchi{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.Chap{
+    margin-top: 30px;
+}
+
+.h1__title{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    /* margin-left: -100px; */
+}
+.select{
+    width: 180px;
+    height: 30px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border: 1px solid blue;
+    color: blue;
+}
+.Kattaligi{
+    margin-top: 20px;
+}
+.radius{
+    margin-top: 20px;
+}
+.cm1, .cm2, .cm3{
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-left: 10px;
+    border: 1px solid blue;
+    color: blue;
+}
+
+.nima{
+    margin-top: 20px;
+}
+
+.usti{
+    margin-top: 20px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    .pomidor{
+        padding-bottom: 10px;
+        input{
+            margin-right: 10px;
+        }
+    }
+    .kurka{
+        padding-bottom: 10px;
+        input{
+            margin-right: 10px;
+        }
+    }
+    .zaytun{
+        padding-bottom: 10px;
+        input{
+            margin-right: 10px;
+        }
+    }
+    .tuzlangan__bodring{
+        padding-bottom: 10px;
+        input{
+            margin-right: 10px;
+        }
+    }
+    .qoziqorin{
+        padding-bottom: 10px;
+        input{
+            margin-right: 10px;
+        }
+    }
+    .qazi{
+        input{
+            margin-right: 10px;
+        }
+    }
+}
+
+
+
+.qoshimchalar{
+    margin-top: 40px;
+}
+
+.qosh{
+    margin-top: 20px;
+    width: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .achchiq{
+        input{
+            margin-right: 10px;
+        }
+    }
+    .pishloq{
+        input{
+            margin-right: 10px;
+        }
+    }
+}
+
+
+.chiziq{
+    margin-top: 30px;
+    width: 4px;
+    height: 500px;
+    background-color: black;
+    /* margin-left: -200px; */
+}
+
+.non{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.kattalik{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.ustida{
+    height: 140px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    span{
+        display: block;
+    }
+}
+
+.qoshimcha{
+    margin-bottom: 30px;
+    height: 60px;
+    span{
+        display: block;
+    }
+}
+
+.btn{
+    width: 200px;
+    height: 60px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.btn:hover{
+    border: 1px solid blue;
+    background-color: white;
+    color: blue;
+    transition: all ease 2s;
+}
